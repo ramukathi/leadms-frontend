@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LeadMS — Lead Management System
 
-## Getting Started
+A modern, responsive **Lead Management System (LeadMS)** built with **Next.js, React, TypeScript, Tailwind CSS, Zustand, Axios, React Hook Form, and Zod**.
 
-First, run the development server:
+LeadMS provides role-based workflows for **Traders, Vendors, Team Members, and Administrators**, allowing businesses to manage products, leads, quotations, vendor settings, team members, and analytics from a centralized platform.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Live URL:**  
+_Add your Vercel production URL here after deployment._
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**GitHub Repository:**  
+https://github.com/ramukathi/leadms-frontend
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Project Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+LeadMS is a role-based business management application designed to streamline the complete lead-to-quote workflow.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application supports four primary roles:
 
-## Deploy on Vercel
+- **Trader**
+- **Vendor**
+- **Team Member**
+- **Admin**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Each role receives a dedicated dashboard and access to functionality relevant to their responsibilities.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Core Workflow
+
+```text
+Trader
+   │
+   ├── Manages global product catalog
+   ├── Creates products
+   ├── Updates products
+   └── Sets product base prices
+           │
+           ▼
+Vendor
+   │
+   ├── Browses available products
+   ├── Locks products
+   ├── Configures pricing
+   ├── Invites team members
+   ├── Creates leads
+   ├── Assigns leads
+   └── Creates quotations
+           │
+           ▼
+Team Member
+   │
+   ├── Views vendor-locked products
+   ├── Creates leads
+   └── Builds quotations
+           │
+           ▼
+Admin
+   │
+   ├── Views analytics
+   ├── Manages users
+   └── Monitors leads
