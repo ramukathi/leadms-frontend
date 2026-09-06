@@ -9,10 +9,9 @@ LeadMS provides dedicated workflows for **Traders, Vendors, Team Members, and Ad
 ## 🚀 Live Application
 
 > **Production URL:**  
-> Add your Vercel production URL here after deployment.
 
 ```text
-[https://leadms-frontend.vercel.app](https://leadms-frontend.vercel.app)
+https://leadms-frontend.vercel.app
 ```
 
 **GitHub Repository:**  
@@ -33,8 +32,6 @@ LeadMS provides dedicated workflows for **Traders, Vendors, Team Members, and Ad
 - [Run the Application](#️-run-the-application)
 - [Application URLs](#-application-urls)
 - [Supported Roles](#-supported-roles)
-- [Recommended Development Workflow](#-recommended-development-workflow)
-- [Project Track](#-project-track)
 - [Author](#-author)
 
 ---
